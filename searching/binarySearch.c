@@ -29,7 +29,7 @@ int binarySearch(int arr[], int size, int target) {
 int main() {
     int arr[] = {1,3,5,8,11,15,19,32,42,45,46,60,76,100};
     int size = sizeof (arr) / sizeof (*arr);
-    printf("size is %d\n", size);
+    // printf("size is %d\n", size);
     int target,result;
 
     printf("Enter the target to find: ");
